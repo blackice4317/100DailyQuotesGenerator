@@ -10,7 +10,7 @@ client = Client(account_sid, auth_token)
 now = dt.datetime.now()
 hour = now.hour
 
-if hour == 23:
+if hour == 8:
     with open("100Quotes.txt", "r") as Quotes:
         content = Quotes.read().splitlines()
 
@@ -22,4 +22,5 @@ if hour == 23:
     )
 
     print(message.status)
+
 
