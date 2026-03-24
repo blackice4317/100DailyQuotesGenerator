@@ -2,7 +2,7 @@ name: Daily Quote Generator
 
 on:
   schedule:
-    - cron: "0 7 * * *"
+    - cron: "35 8 * * *"
   workflow_dispatch:
 
 jobs:
